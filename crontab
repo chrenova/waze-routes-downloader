@@ -18,5 +18,6 @@
 
 15,45 * * * * ~/dev/waze/run_waze_requests_v2.sh voderady_exitpk &>/tmp/waze.log
 16,46 * * * * ~/dev/waze/run_waze_requests_v2.sh bb_exitpk &>/tmp/waze.log
+17,47 * * * * ~/dev/waze/run_waze_requests_v2.sh exitpk_pristavny &>/tmp/waze.log
 
 * * * * * env > /tmp/env.output

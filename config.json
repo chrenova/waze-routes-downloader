@@ -64,6 +64,21 @@
       "x": 19.137121,
       "y": 48.724006,
       "desc": ""
+    },
+    "exit_pk_dir_ba": {
+      "x": 17.364691,
+      "y": 48.235676,
+      "desc": ""
+    },
+    "pristavny_most": {
+      "x": 17.137626,
+      "y": 48.133083,
+      "desc": ""
+    },
+    "exit_tt_dir_ba": {
+      "x": 17.625166,
+      "y": 48.334490,
+      "desc": ""
     }
   },
   "routes": {
@@ -122,6 +137,10 @@
     "bb_exitpk": {
       "from": "bb",
       "to": "exit_pk"
+    },
+    "exitpk_pristavny": {
+      "from": "exit_pk_dir_ba",
+      "to": "pristavny_most"
     }
   }
 }
