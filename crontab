@@ -1,0 +1,22 @@
+0,30 * * * * ~/dev/waze/run_waze_requests_v2.sh ba_nr &>/tmp/waze.log
+1,31 * * * * ~/dev/waze/run_waze_requests_v2.sh nr_ba &>/tmp/waze.log
+
+2,32 * * * * ~/dev/waze/run_waze_requests_v2.sh ba_split &>/tmp/waze.log
+3,33 * * * * ~/dev/waze/run_waze_requests_v2.sh split_ba &>/tmp/waze.log
+
+4,34 * * * * ~/dev/waze/run_waze_requests_v2.sh ljubljana_pula &>/tmp/waze.log
+5,35 * * * * ~/dev/waze/run_waze_requests_v2.sh pula_ljubljana &>/tmp/waze.log
+
+6,36 * * * * ~/dev/waze/run_waze_requests_v2.sh zagreb_krk &>/tmp/waze.log
+7,37 * * * * ~/dev/waze/run_waze_requests_v2.sh krk_zagreb &>/tmp/waze.log
+
+8,38 * * * * ~/dev/waze/run_waze_requests_v2.sh becsehely_zadar &>/tmp/waze.log
+9,39 * * * * ~/dev/waze/run_waze_requests_v2.sh zadar_becsehely &>/tmp/waze.log
+
+10,40 * * * * ~/dev/waze/run_waze_requests_v2.sh spielfeld_zadar &>/tmp/waze.log
+11,41 * * * * ~/dev/waze/run_waze_requests_v2.sh zadar_spielfeld &>/tmp/waze.log
+
+15,45 * * * * ~/dev/waze/run_waze_requests_v2.sh voderady_exitpk &>/tmp/waze.log
+16,46 * * * * ~/dev/waze/run_waze_requests_v2.sh bb_exitpk &>/tmp/waze.log
+
+* * * * * env > /tmp/env.output

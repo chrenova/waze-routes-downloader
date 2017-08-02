@@ -1,0 +1,127 @@
+{
+  "locations": {
+    "opavska": {
+      "x": 17.089628,
+      "y": 48.164125,
+      "desc": ""
+    },
+    "dolnocermanska": {
+      "x": 18.071622,
+      "y": 48.292184,
+      "desc": ""
+    },
+    "ljubljana": {
+      "x": 14.433492,
+      "y": 46.028517,
+      "desc": "brezovica pri ljubljani"
+    },
+    "pula": {
+      "x": 13.86422,
+      "y": 44.880698,
+      "desc": ""
+    },
+    "zagreb": {
+      "x": 15.944198,
+      "y": 45.772649,
+      "desc": "arena"
+    },
+    "krk": {
+      "x": 14.573777,
+      "y": 45.029077,
+      "desc": ""
+    },
+    "zadar": {
+      "x": 15.240671,
+      "y": 44.105755,
+      "desc": ""
+    },
+    "becsehely": {
+      "x": 16.812252,
+      "y": 46.452476,
+      "desc": "becsehely(near letenye/gorican)"
+    },
+    "spielfeld": {
+      "x": 15.63406,
+      "y": 46.707036,
+      "desc": "spielfeld(sentilj)"
+    },
+    "split": {
+      "x": 16.483902,
+      "y": 43.517708,
+      "desc": ""
+    },
+    "voderady": {
+      "x": 17.553577,
+      "y": 48.306898,
+      "desc": ""
+    },
+    "exit_pk": {
+      "x": 17.369798,
+      "y": 48.238241,
+      "desc": ""
+    },
+    "bb": {
+      "x": 19.137121,
+      "y": 48.724006,
+      "desc": ""
+    }
+  },
+  "routes": {
+    "ba_nr": {
+      "from": "opavska",
+      "to": "dolnocermanska"
+    },
+    "nr_ba": {
+      "from": "dolnocermanska",
+      "to": "opavska"
+    },
+    "ba_split": {
+      "from": "opavska",
+      "to": "split"
+    },
+    "split_ba": {
+      "from": "split",
+      "to": "opavska"
+    },
+    "ljubljana_pula": {
+      "from": "ljubljana",
+      "to": "pula"
+    },
+    "pula_ljubljana": {
+      "from": "pula",
+      "to": "ljubljana"
+    },
+    "zagreb_krk": {
+      "from": "zagreb",
+      "to": "krk"
+    },
+    "krk_zagreb": {
+      "from": "krk",
+      "to": "zagreb"
+    },
+    "becsehely_zadar": {
+      "from": "becsehely",
+      "to": "zadar"
+    },
+    "zadar_becsehely": {
+      "from": "zadar",
+      "to": "becsehely"
+    },
+    "spielfeld_zadar": {
+      "from": "spielfeld",
+      "to": "zadar"
+    },
+    "zadar_spielfeld": {
+      "from": "zadar",
+      "to": "spielfeld"
+    },
+    "voderady_exitpk": {
+      "from": "voderady",
+      "to": "exit_pk"
+    },
+    "bb_exitpk": {
+      "from": "bb",
+      "to": "exit_pk"
+    }
+  }
+}
