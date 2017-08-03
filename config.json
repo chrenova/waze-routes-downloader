@@ -79,6 +79,36 @@
       "x": 17.625166,
       "y": 48.334490,
       "desc": ""
+    },
+    "maribor": {
+      "x": 15.672255,
+      "y": 46.473707,
+      "desc": "orehova vas"
+    },
+    "lucko_dir_zadar": {
+      "x": 15.882465,
+      "y": 45.747051,
+      "desc": "after naplatna postaja"
+    },
+    "lucko_dir_zagreb": {
+      "x": 15.886230,
+      "y": 45.750907,
+      "desc": "after naplatna postaja"
+    },
+    "exit_sveti_rok": {
+      "x": 15.628567,
+      "y": 44.389154,
+      "desc": ""
+    },
+    "macelj_trakoscan_dir_zagreb": {
+      "x": 15.857531,
+      "y": 46.258756,
+      "desc": ""
+    },
+    "macelj_trakoscan_dir_slovenia": {
+      "x": 15.860835,
+      "y": 46.260633,
+      "desc": ""
     }
   },
   "routes": {
@@ -141,6 +171,38 @@
     "exitpk_pristavny": {
       "from": "exit_pk_dir_ba",
       "to": "pristavny_most"
+    },
+    "maribor-macelj_trakoscan_dir_zagreb": {
+      "from": "maribor",
+      "to": "macelj_trakoscan_dir_zagreb"
+    },
+    "macelj_trakoscan_dir_slovenia-maribor": {
+      "from": "macelj_trakoscan_dir_slovenia",
+      "to": "maribor"
+    },
+    "macelj_trakoscan_dir_zagreb-lucko_dir_zadar": {
+      "from": "maribor-macelj_trakoscan_dir_zagreb",
+      "to": "lucko_dir_zadar"
+    },
+    "lucko_dir_zagreb-macelj_trakoscan_dir_slovenia": {
+      "from": "lucko_dir_zagreb",
+      "to": "macelj_trakoscan_dir_slovenia"
+    },
+    "lucko_dir_zadar-exit_sveti_rok": {
+      "from": "lucko_dir_zadar",
+      "to": "exit_sveti_rok"
+    },
+    "exit_sveti_rok-lucko_dir_zagreb": {
+      "from": "exit_sveti_rok",
+      "to": "lucko_dir_zagreb"
+    },
+    "exit_sveti_rok-zadar": {
+      "from": "exit_sveti_rok",
+      "to": "zadar"
+    },
+    "zadar-exit_sveti_rok": {
+      "from": "zadar",
+      "to": "exit_sveti_rok"
     }
   }
 }

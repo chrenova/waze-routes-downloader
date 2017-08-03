@@ -20,4 +20,13 @@
 16,46 * * * * ~/dev/waze/run_waze_requests_v2.sh bb_exitpk &>/tmp/waze.log
 17,47 * * * * ~/dev/waze/run_waze_requests_v2.sh exitpk_pristavny &>/tmp/waze.log
 
+18,48 * * * * ~/dev/waze/run_waze_requests_v2.sh maribor-macelj_trakoscan_dir_zagreb &>/tmp/waze.log
+19,49 * * * * ~/dev/waze/run_waze_requests_v2.sh macelj_trakoscan_dir_slovenia-maribor &>/tmp/waze.log
+20,50 * * * * ~/dev/waze/run_waze_requests_v2.sh macelj_trakoscan_dir_zagreb-lucko_dir_zadar &>/tmp/waze.log
+21,51 * * * * ~/dev/waze/run_waze_requests_v2.sh lucko_dir_zagreb-macelj_trakoscan_dir_slovenia &>/tmp/waze.log
+22,52 * * * * ~/dev/waze/run_waze_requests_v2.sh lucko_dir_zadar-exit_sveti_rok &>/tmp/waze.log
+23,53 * * * * ~/dev/waze/run_waze_requests_v2.sh exit_sveti_rok-lucko_dir_zagreb &>/tmp/waze.log
+24,54 * * * * ~/dev/waze/run_waze_requests_v2.sh exit_sveti_rok-zadar &>/tmp/waze.log
+25,55 * * * * ~/dev/waze/run_waze_requests_v2.sh zadar-exit_sveti_rok &>/tmp/waze.log
+
 * * * * * env > /tmp/env.output
