@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "1"
-export WAZE_HOME=/home/mano/dev/waze/
+export WAZE_HOME=~/dev/waze/
 echo $WAZE_HOME
 
 rt=$1

@@ -181,7 +181,7 @@
       "to": "maribor"
     },
     "macelj_trakoscan_dir_zagreb-lucko_dir_zadar": {
-      "from": "maribor-macelj_trakoscan_dir_zagreb",
+      "from": "macelj_trakoscan_dir_zagreb",
       "to": "lucko_dir_zadar"
     },
     "lucko_dir_zagreb-macelj_trakoscan_dir_slovenia": {
